@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma de dois numeros"/>
+        <attribute name="authors" value="DANIEL LOPES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 08:48:04 "/>
+        <attribute name="created" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA0OyIwNzoxOTowNSAiOzMwNzk="/>
+        <attribute name="edited" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA0OyIwODo0ODowNCAiOzE7MzE4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="soma" expression="n1 + n2"/>
+            <output expression="&quot;o resultado e: &quot; &amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

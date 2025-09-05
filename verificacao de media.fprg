@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LUCASBONTEMPOLIMEIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 08:33:51 "/>
+        <attribute name="created" value="TFVDQVNCT05URU1QT0xJTUVJUkE7REYwMS1MQUIwMi01NzsyMDI1LTA5LTA0OyIwNzoxOTowNiAiOzM0NDE="/>
+        <attribute name="edited" value="TFVDQVNCT05URU1QT0xJTUVJUkE7REYwMS1MQUIwMi01NzsyMDI1LTA5LTA0OyIwODozMzo1MSAiOzE7MzU0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro numero: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo numero: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite o terceiro numero: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="media" expression="(n1+n2+n3)/3"/>
+            <output expression="&quot;resultado: &quot; &amp;media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Voce est&#225; aprovado com nota:&quot; &amp;media" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voce est&#225; reprovado com nota:&quot; &amp;media" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

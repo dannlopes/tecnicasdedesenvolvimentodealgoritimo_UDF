@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tabuada de um numero"/>
+        <attribute name="authors" value="DANIEL LOPES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 11:35:55 "/>
+        <attribute name="created" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA1OyIxMToyNzowMSAiOzMwNzA="/>
+        <attribute name="edited" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA1OyIxMTozNTo1NSAiOzE7MzE4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, resultado, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para ver a tabuada: &quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="resultado" expression="num * i"/>
+                <output expression="num &amp;&quot;x&quot; &amp;i &amp;&quot; = &quot; &amp;resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

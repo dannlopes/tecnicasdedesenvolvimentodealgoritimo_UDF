@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="verificacao impa par"/>
+        <attribute name="authors" value="DANIEL LOPES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 09:12:28 "/>
+        <attribute name="created" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA0OyIwODo0OTo1MCAiOzMwODM="/>
+        <attribute name="edited" value="REFOSUVMIExPUEVTO0RFU0tUT1AtQTQ3NE9RQTsyMDI1LTA5LTA0OyIwOToxMjoyOCAiOzE7MzE4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <declare name="numeroPar" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="numeroPar" expression="numero%2"/>
+            <if expression="numeroPar = 0">
+                <then>
+                    <output expression="&quot;O numero&quot; &amp;numero &amp;&quot; e par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero &quot; &amp;numero &amp;&quot; e &#237;mpar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
